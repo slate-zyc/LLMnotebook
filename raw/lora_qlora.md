@@ -1,8 +1,30 @@
 ---
 title: LoRA、QLoRA低秩微调详解：为什么低秩微调这么流行，rank怎么设、显存怎么省
 description: 用最直白的方式讲清楚LoRA和QLoRA为什么能用极小的代价微调大模型，低秩分解的原理、rank和alpha参数怎么理解、target_modules怎么选、QLoRA的4bit量化怎么省显存，以及面试里"LoRA rank设多少"该怎么答，适合大模型应用开发、LLM工程和AI面试复习。
-keywords: [LoRA, QLoRA, 低秩微调, 低秩分解, rank, lora_alpha, PEFT, 参数高效微调, 4bit量化, NF4, 大模型微调, SFT, 显存优化, LLM微调, 大模型应用开发, AI面试]
-tags: [大模型应用, 大模型微调, LoRA, QLoRA, PEFT, 大模型面试]
+keywords:
+  - LoRA
+  - QLoRA
+  - 低秩微调
+  - 低秩分解
+  - rank
+  - lora_alpha
+  - PEFT
+  - 参数高效微调
+  - 4bit量化
+  - NF4
+  - 大模型微调
+  - SFT
+  - 显存优化
+  - LLM微调
+  - 大模型应用开发
+  - AI面试
+tags:
+  - 大模型应用
+  - 大模型微调
+  - LoRA
+  - QLoRA
+  - PEFT
+  - 大模型面试
 ---
 
 # LoRA/QLoRA：为什么低秩微调这么流行
@@ -70,8 +92,6 @@ tags: [大模型应用, 大模型微调, LoRA, QLoRA, PEFT, 大模型面试]
 光这三块加起来就奔着 70GB 去了。
 
 还没算前向传播的激活值。
-
-<!-- drawio源文件: ./drawio/lora_01_memory_breakdown.drawio -->
 
 ![全参微调和LoRA的显存占用对比](https://file1.kamacoder.com/i/web/20260614152712_lora_01_memory_breakdown.png?v=20261005)
 

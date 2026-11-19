@@ -4,6 +4,21 @@
 
 ---
 
+## [2026-11-19] refactor | 归档 LoRA/QLoRA 外部原文
+
+**操作**：refactor（整理外部资料）
+
+**内容**：
+- 将 LoRA/QLoRA 外部原文移到 `raw/` 目录，加入 Git 跟踪。
+- 修正 README 中“内容导览”和“来源与鸣谢”的两处原文链接。
+
+**更新的文件**：
+- 移动：`微调/lora_qlora.md` → `raw/lora_qlora.md`
+- 更新：`README.md`（修正原文路径）
+- 更新：`log.md`（记录本次整理）
+
+---
+
 ## [2026-11-19] refactor | 清理旧维护者引用
 
 **操作**：refactor（清理文字引用与历史关联）

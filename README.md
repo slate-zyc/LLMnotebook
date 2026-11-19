@@ -10,7 +10,7 @@
 |------|------|----------|
 | [预训练](预训练/) | 数据工程、分词器、规模定律 | [Tokenizer 与 BPE](预训练/Tokenizer与BPE算法.md)、[Scaling Laws](预训练/Scaling%20Laws.md) |
 | [架构](架构/) | Transformer、注意力机制、位置编码与缓存 | [Transformer](架构/Transformer.md)、[注意力机制](架构/注意力机制.md)、[RoPE](架构/RoPE旋转位置编码.md)、[KV Cache](架构/KV%20Cache.md) |
-| [微调](微调/) | SFT、LoRA/QLoRA、偏好优化与强化学习 | [LoRA](微调/LoRA.md)、[QLoRA](微调/QLoRA.md)、[LoRA/QLoRA 外部原文](微调/lora_qlora.md)、[DPO](微调/DPO.md)、[GRPO](微调/GRPO.md) |
+| [微调](微调/) | SFT、LoRA/QLoRA、偏好优化与强化学习 | [LoRA](微调/LoRA.md)、[QLoRA](微调/QLoRA.md)、[LoRA/QLoRA 外部原文](raw/lora_qlora.md)、[DPO](微调/DPO.md)、[GRPO](微调/GRPO.md) |
 | [推理](推理/) | 量化、长上下文、混合精度与分布式训练 | [推理优化](推理/推理优化.md)、[量化技术](推理/量化技术.md)、[长上下文技术](推理/长上下文技术.md) |
 | [应用](应用/) | RAG、Agent、工作流与应用平台 | [RAG](应用/RAG.md)、[Agent 与工具调用](应用/Agent与工具调用.md)、[LangGraph](应用/LangGraph.md) |
 | [综合](综合/) | 评估基准与面试知识整理 | [大模型评估基准](综合/大模型评估基准.md)、[大模型面试八股](综合/大模型面试八股.md) |
@@ -38,7 +38,7 @@ git clone https://github.com/slate-zyc/LLMnotebook.git
 ## 来源与鸣谢
 
 - 部分基础笔记参考公开学习资料，原始内容归相应作者所有。
-- [LoRA/QLoRA 外部原文](微调/lora_qlora.md) 来源于 [youngyangyang04/llm-master](https://github.com/youngyangyang04/llm-master/blob/main/docs/llm/app/lora_qlora.md)，保留正文，仅将两处相对链接改为完整地址。
+- [LoRA/QLoRA 外部原文](raw/lora_qlora.md) 来源于 [youngyangyang04/llm-master](https://github.com/youngyangyang04/llm-master/blob/main/docs/llm/app/lora_qlora.md)，保留正文，仅将两处相对链接改为完整地址。
 - 后续引入的外部资料会在对应笔记、索引或更新日志中注明来源。
 
 ## 说明
