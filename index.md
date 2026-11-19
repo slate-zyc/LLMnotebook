@@ -1,6 +1,6 @@
 # 大模型学习笔记 - 索引
 
-> 最后更新：2026-11-18
+> 最后更新：2026-11-19
 
 ---
 
@@ -9,6 +9,7 @@
 | 笔记 | 标签 | 简介 |
 |------|------|------|
 | [[Transformer]] | 架构, 核心 | Transformer 架构详解 |
+| [Transformer 专题目录](Transformer/README.md) | 架构, 外部资料 | 12 篇笔记及配图（[原仓库](https://github.com/jiayun-xiong/deep-learning-notes)） |
 | [[注意力机制]] | 架构, 注意力机制, 高效Transformer | 注意力机制变体详解 |
 | [[RoPE旋转位置编码]] | 架构, 位置编码 | 旋转位置编码 |
 | [[SwiGLU激活函数]] | 架构, FFN | 现代大模型标配激活函数 |
@@ -24,13 +25,13 @@
 | [[SFT：监督微调]] | 微调, SFT | 监督微调流程 |
 | [[LoRA]] | 微调, 参数高效 | LoRA 微调 |
 | [[QLoRA]] | 微调, 量化 | 量化 LoRA |
-| [[lora_qlora\|LoRA/QLoRA 低秩微调详解]] | 微调, LoRA, QLoRA, 外部资料 | 低秩微调、参数设置与显存优化（[原文来源](https://github.com/youngyangyang04/llm-master/blob/main/docs/llm/app/lora_qlora.md)） |
+| [[raw/lora_qlora/lora_qlora\|LoRA/QLoRA 低秩微调详解]] | 微调, LoRA, QLoRA, 外部资料 | 低秩微调、参数设置与显存优化（[原文来源](https://github.com/youngyangyang04/llm-master/blob/main/docs/llm/app/lora_qlora.md)） |
 | [[DPO]] | 微调, 对齐 | 直接偏好优化 |
 | [[PPO]] | 微调, 对齐, RL | 近端策略优化 |
 | [[GRPO]] | 微调, 对齐, RL | 组相对策略优化 |
 | [[RLHF]] | 微调, 对齐 | 基于人类反馈的强化学习 |
 | [[奖励模型]] | 微调, 对齐 | 奖励模型训练 |
-| [[偏好数据构建]] | 微调, 数据 | 偏好数据收集 |
+| [[偏好数据构建]] | 微调, 对齐, 数据 | 偏好对构造、标注准则、去重划分与 JSONL 示例 |
 
 ---
 

@@ -4,6 +4,65 @@
 
 ---
 
+## [2026-11-19] ingest | 补写偏好数据构建笔记
+
+**操作**：ingest（补写空白笔记）
+
+**内容**：
+- 介绍偏好对、标注准则和难负例，并解释同题分组、去重、截断和裁判偏差。
+- 补充可运行的 Python 示例，将原始胜负标注转换为 JSONL 偏好记录。
+- 更新微调索引，补齐 DPO、RLHF 与偏好数据构建的交叉引用。
+
+**更新的文件**：
+- 补写：微调/偏好数据构建.md
+- 更新：微调/DPO.md、微调/RLHF.md、index.md、log.md
+
+---
+
+## [2026-11-19] update | 精简 Git 忽略规则
+
+**操作**：update（更新忽略配置）
+
+**内容**：
+- 保留现有 Obsidian 本地配置的忽略规则。
+- 移除当前仓库没有对应文件或目录的 Claude Code、.DS_Store 和 Coze 原始资料规则。
+
+**更新的文件**：
+- 更新：.gitignore、log.md
+
+---
+
+## [2026-11-19] ingest | 导入 Transformer 专题笔记
+
+**操作**：ingest（导入一组外部笔记）
+
+**内容**：
+- 从 [jiayun-xiong/deep-learning-notes](https://github.com/jiayun-xiong/deep-learning-notes) 导入 12 篇 Markdown 笔记及其 PDF、配图、Notebook 等附件。来源提交为 cec5f24。
+- 保留主题目录及文件的原有布局。专题 README 仅保留「笔记目录」，不带入来源仓库的 .gitignore。
+- 来源中的两条「系列规划」链接指向同一个未收录的文件，保留原文链接。
+
+**更新的文件**：
+- 新建：Transformer/（专题目录与笔记文件）
+- 更新：README.md、index.md、log.md
+
+---
+
+## [2026-11-19] refactor | 整理 LoRA/QLoRA 笔记图片
+
+**操作**：refactor（整理笔记与配图）
+
+**内容**：
+- 将原文和配图归入 `raw/lora_qlora/`，Markdown 文件与 `figs/` 同级。
+- 将 6 张图片保存到 `figs/`，正文图片改用相对路径。
+- 更新 README 和索引中的笔记入口，将 README 的链接名称改为 lora_qlora，并移除「来源与鸣谢」中的两条说明。
+
+**更新的文件**：
+- 移动：`raw/lora_qlora.md` → `raw/lora_qlora/lora_qlora.md`
+- 新建：`raw/lora_qlora/figs/` 中的 6 张图片
+- 更新：`README.md`、`index.md`、`log.md`
+
+---
+
 ## [2026-11-19] refactor | 归档 LoRA/QLoRA 外部原文
 
 **操作**：refactor（整理外部资料）
